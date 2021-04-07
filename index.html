@@ -5,11 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <style>
+        .text-style {
+            color: #4040f0;
+            text-transform: lowercase;
+            text-decoration: none;
+        }    
+        .text-center {
+            text-align: center;
+        }
+        .list-style {
+            list-style: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Scegli la password che preferisci</h1>
-
-    <h3 id="generatedPassword"></h3>
+    <h1 class="text-center">Genera la tua Password</h1>
+    
+    <h2 class="text-center">Scegli tra quelle suggerite:</h2>
+    <ul class="text-center list-style">
+        <li><p><a class="text-style" id="generatedPassword1" href=""></a></p></li>
+        <li><p><a class="text-style" id="generatedPassword2" href=""></a></p></li>
+        <li><p><a class="text-style" id="generatedPassword3" href=""></a></p></li>
+    </ul>
 
     <script src="pwdGenerator.js"></script>
 </body>
